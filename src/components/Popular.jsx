@@ -7,7 +7,7 @@ const Popular = () => {
   }, []);
   const fetchPopular = async () => {
     const response = await fetch(
-      "https://api.consumet.org/meta/anilist/popular"
+      "https://animxer-api-cvxg.vercel.app/meta/anilist/popular"
     );
     const json = response.json();
     json.then((res) => {
