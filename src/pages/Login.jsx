@@ -12,7 +12,7 @@ const Login = () => {
   }, []);
   const fetchData = async () => {
     const response = await fetch(
-      "https://api.consumet.org/meta/anilist/random-anime"
+      "https://animxer-api-cvxg.vercel.app/meta/anilist/random-anime"
     );
     const json = await response.json();
     setBackground(json.cover);
