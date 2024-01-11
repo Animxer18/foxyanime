@@ -8,7 +8,7 @@ const Recent = () => {
 
   const fetchRecent = async () => {
     const response = await fetch(
-      "https://api.consumet.org/meta/anilist/recent-episodes"
+      "https://animxer-api-cvxg.vercel.app/meta/anilist/recent-episodes"
     );
     const json = response.json();
     json.then((result) => {
