@@ -16,7 +16,7 @@ const Layout = () => {
 
   const fetchData = async () => {
     const response = await fetch(
-      "https://api.consumet.org/anime/gogoanime/top-airing"
+      "https://animxer-api-cvxg.vercel.app/anime/gogoanime/top-airing"
     );
     const json = await response.json();
     const results = json.results;
