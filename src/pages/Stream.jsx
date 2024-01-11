@@ -18,7 +18,7 @@ const Stream = () => {
   }, []);
 
   const fetchEpisode = async () => {
-    const url = "https://api.consumet.org/anime/gogoanime/watch/" + episodeId;
+    const url = "https://animxer-api-cvxg.vercel.app/anime/gogoanime/watch/" + episodeId;
     const data = await fetch(url);
     const response = data.json();
     response.then((res) => {
