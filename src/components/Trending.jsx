@@ -9,7 +9,7 @@ const Trending = () => {
 
   const fetchTrending = async () => {
     const data = await fetch(
-      "https://api.consumet.org/anime/gogoanime/top-airing"
+      "https://animxer-api-cvxg.vercel.app/anime/gogoanime/top-airing"
     );
     const json = await data.json();
     // console.log(json);
